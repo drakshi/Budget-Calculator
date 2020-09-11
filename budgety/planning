@@ -1,0 +1,22 @@
+NOTES
+* We will have variable and functions that are private ,which means that they are only accesible inside of module. 
+* We want that so that no other code of our data can override our data. So are data is going to be safe. Besides private methods we are also gonna   have public methods , which means that we expose them to the public so that other functions or modules can access them or use them . And this is   called data encapsulation.
+* So data encapsulation allows us to hide implementation details of specific module from the outside scope so that we only expose a public           interface which is sometimes called API.
+* Sepration of Concerns basically means  that each part of the application should only be intrested in doing one thing independently.
+
+To Do list
+
+Add event handler
+Get input value
+Add the new item to our data structure
+Add the new item to the UI
+Calculate budget
+Update the UI
+
+Structuring our code with Module
+
+UI MODULE                                              DATA MODULE                                                   CONTROLLER MODULE
+Get Input value                                        Add the new item to our data structure                        Add event handler
+
+\Add the new item to the UI                             Calculate budget
+update the UI                                          
